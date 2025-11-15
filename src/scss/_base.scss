@@ -1,0 +1,38 @@
+body {
+    font-family: 'Aileron', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* container */
+.container {
+    width: 100%;
+    max-width: 480px;
+    padding: 40px 20px;
+}
+
+/* md: 768px */
+@media (min-width: 768px) {
+    .container {
+        max-width: 640px;
+    }
+}
+
+/* lg: 1024px */
+@media (min-width: 1024px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+/* xl: 1280px */
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1024px;
+    }
+}
